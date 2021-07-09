@@ -16,3 +16,9 @@ Then run:
 git rebase -i HEAD~3
 `
 ~3 is how many commits back you want to amend.
+
+press i to start vim insert mode. change picks to squash for all but one. hit esc then :wq enter to save
+now comment out the commit messages that you don't want to see by putting a # to the left. then :wq enter again. 
+
+'git log' --oneline shows all commits
+'git reflog' shows all changes
